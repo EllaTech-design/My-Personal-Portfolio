@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portifolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />       
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <h1><span>Emma</span>nuella.</h1>
+        <ul id="menu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contacts">Contact</a></li>
+          <i class="fa-solid fa-times" onclick="closemenu()"></i>
+        </ul>
+         <i class="fa-solid  fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <h1>Hi, I'm Emmanuella <br></h1>
+        <p><span>front-end </span>developer</p>
+        <h1>from Nigeria</h1>
+        
+      </div>
+      <div class="header-img">
+        <img src="images/image1.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!---------------- About ------------->
+  <div id="about">
+      <div class ="container">
+          <div class ="row">
+              <div class="about-col-1">
+              <img src="images/image7.jpg">
+              </div>
+              <div class ="about-col-2">
+                  <h1 class="sub-title">About me </h1>
+                  <p>I'm an aspiring front-end developer with a passion for building beautiful and funtional websites.I'm excited to apply my skills to real-world projects.<br>
+                  As a beginner,l'm eager to learn and grow,and l'm always looking forward for opportiunities to improve my craft. l'm passionate about creating user-friendly and responsive web application, nd l'm excited to collaborate with others to bring new ideas to life.<br>
+                 When l'm not coding,you can find me cooking, am also a cook.Let's connect and explore how we can work together to create something amazing!!!
+                  </p>
+                  <div class="tab-titles">
+                      <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                      <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                      <p class="tab-links" onclick="opentab('education')">Education</p>
+                  </div>
+                  <div class="tab-contents active-tab" id="skills">
+                      <ul>
+                          <li>Responsive web design</li>
+                          <li>HTML5, CSS3 and Basic JavaScript</li>
+                          <li>Basic Ul/UX principles</li>
+                          <li>Familiarity with front-end frameworks</li>
+                      </ul>
+                  </div>
+                  <div class="tab-contents" id="experience">
+                      <ul>
+                          <li><span>Personal Projects</span><br>portfolio websites,<br>Todo list websites,<br> Resturant Website, <br>scrollable landing page etc</li>
+                      </ul>
+                  </div>
+                  
+                  <div class="tab-contents" id="education">
+                      <ul>
+                          <li><span>2017-2023</span><br>Shalom Academy</li>
+                          <li><span>Self-Taught</span><br>Completed online ourses on udemy,<br> and tutorial videos on Youtube <br>focusing on HTML,CSS,JavaScript,<br> and responsive web design</li>
+                          <li><span>Udemy Courses</span><br>Utimate Front-End Web Development <br>Course by Selfcode Academy</li>
+                          <li><span>YouTube Tutorials</span><br>HTML, CSS and JavaScript by Programming with <br>Mosh JavaScript full course by SuperSimpleDev.</li>
+                          <li><span>A friendly-user websites for my clients.</span></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+     </div>
+</div>
+
+<!------------------ projects ----------------->
+  <div id="projects">
+     <div class="container">
+     <h1 class="sub-title"> My Projects</h1>
+     <div class="project-list">
+        <div class="project">
+          <img src="images/three.jpg">
+          <div class="layer">
+          <a href="#" class="icon"><i class="fa-brands fa-app-store"></i></a>
+          <h2>Real-World Applications</h2>
+          <p>I design and build a landing page for companies and also creates simple online store with products listing and cart functionality.</p>
+          <a href="#">Learn more</a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="images/two.jpg">
+          <div class="layer">
+          <a href="#"class="icon"><i class="fa-solid fa-code"></i></a>
+          <h2>Personal Projects</h2>
+          <p>I design  wedsites to showcase you,practice DOM manipulation and user interaction, finally  create a interactive quiz with scoring and feedback.</p>
+          <a href="#" >Learn more</a>
+        </div>
+       </div>
+       <div class="project">
+          <img src="images/one.jpg">
+          <div class="layer">
+          <a href="#" aria-label="View on App Store" class="icon"><i class="fa-solid fa-crop-simple"></i></a>
+          <h2>Responsive Experience</h2>
+          <p>As it's name simply implies, I build various websites that adapts to different screen sizes and devices be it (Android, Apple, Pc etc).</p>
+          <a href="#">Learn more</a>
+        </div>
+     </div>
+     </div>
+  </div>
+  <!------------------ contacts ----------------->
+  <div id="contacts">
+    <div class="continer">
+       <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p class="icon"><i class="fa-solid fa-paper-plane"></i>emmanuellaukamaka079@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>+234*********</p>
+          <div class="contact-icons">
+          <a href="https://github.com/EllaTech-design"><i class="fa-brands fa-git"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href="+2349127408892"><i class="fa-brands fa-telegram"></i></a>
+          <a href="https://www.facebook.com/ella.darling.2025"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <a href="images/my-CV.pdf" download class="btn">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+       </div>
+      
+      </div>
+    </div>
+  </div>
+  <footer>
+        <p>EllaTech-design <i class="fa-solid fa-heart"></i>copyright &copy;2025
+        </p>
+    </footer>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
