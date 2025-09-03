@@ -442,7 +442,7 @@ width: 100%;
   flex-basis: 35%;
 }
 .contact-right{
-  flex-basis: 70%;
+  flex-basis: 60%;
 
 }
 .contact-left p{
@@ -454,10 +454,8 @@ width: 100%;
   font-size: 25px;
 }
 .contact-icons{
-  margin-top: 25rem;
+  margin-top: 3rem;
   position: absolute;
-  bottom: 0;
-  top: 0;
 }
 .contact-icons a{
   text-decoration: none;
@@ -598,6 +596,12 @@ nav .fa-solid{
 /*....... contact .......*/
 .contact-right form{
   width: 400px
+}
+.contact-icons{
+  margin-top: 25rem;
+  position: absolute;
+  bottom: 0;
+  top: 0;
 }
 .btn{
 width: 60%;
